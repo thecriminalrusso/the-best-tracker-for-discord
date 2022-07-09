@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&amp;display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    background-color: #121212;
+    text-decoration: none;
+}
+
+
+
+
+.icons img{
+    width: 170px !important;
+    height: 170px !important;
+    position: relative;
+    margin-right: 1px;
+    background-size: 1px;
+    border: 3px solid #191919;
+}
+
+
+.www { 
+    width: calc(90% - 20px);
+    left: 5%;
+    padding: 10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+  .button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+
+#center {
+    width: fit-content;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    position: absolute;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.jumbotron-item .jumbotron-buttons {
+	margin-top: 30px;
+}
+
+.jumbotron-item .jumbotron-buttons button {
+	margin: 10px 5px;
+}
+
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    background-color: #272727;
+    margin-right: 20px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+.www .download {
+    color: #ffffff;
+    word-break: break-all;
+    max-height: 130px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.iconstitle {
+    FONT-SIZE: 50px;
+    color: #fff;
+    text-shadow: 0px 0px 20px #00000050;
+    text-align: center;
+    top: 70px;
+    position: relative;
+    font-family: Montserrat;
+}
+
+.iconstitlexd {
+    FONT-SIZE: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 20px #00000050;
+    text-align: center;
+    top: 70px;
+    position: relative;
+    font-family: Montserrat;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: white;
+
+}

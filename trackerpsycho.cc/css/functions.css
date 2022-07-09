@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .bg-transparent {
+    background-color: transparent !important;
+  }
+  .commandstitle {
+    color: #ffffff;
+}
+.lead {
+  font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+.commandssub {
+    color: gray;
+    margin-bottom: 20px;
+}
+.searchbox {
+    background-color: #191919;
+    padding: 15px 27px;
+    font-size: 20px;
+    color: #ccc;
+    border: 3px solid #191919;
+    border-radius: 8px;
+    width: 40%;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+  }
+  .collapsible {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .collapsible span {
+    font-size: 14px;
+    background-color: transparent;
+}
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+  }
+  .content {
+    padding: 0 18px;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: none;
+    color: #6a707a;
+    text-align: left;
+    display: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  .content h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+.button-section {
+    padding-top: 2%;
+   text-align: center;
+}
+.btn-hvr {
+   -webkit-transition: 0.54s ease-in;
+   -o-transition: 0.54s ease-in;
+   transition: 0.54s ease-in;
+}
+.btn-hvr:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #191919
+
+}
+
+@media screen and (max-width: 500px) {
+.content img{
+  width: 190px;
+}
+
+}
+
+.commandssubs {
+  color: gray;
+}
+
